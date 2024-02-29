@@ -24,7 +24,12 @@ pip install -r requirements.txt
 
 
 3. Run the app
+Use the Bible for RAG by default:
+```
+python app.py
+```
+
+Or, you may specify your own vectorstore:
 ```
 python app.py --vectorstore_path <PATH_TO_VECTORSTORE>
-
 ```

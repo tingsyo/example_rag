@@ -9,20 +9,25 @@
 
 ## 使用方式
 
-1. Clone this repo
+1. 下載本專案
 ```
 git clone https://github.com/tingsyo/example_rag.git
 ```
 
 
-2. Install dependecies
+2. 安裝相關套件
 ```
 pip install -r requirements.txt
 ```
 
 
-3. Run the app
+3. 啟動 RAG app
+預設使用 《國語和合本聖經》 作為回答依據：
+```
+python app.py
+```
+
+也可以使用自定義的 vectorstore 來啟動 RAG：
 ```
 python app.py --vectorstore_path <PATH_TO_VECTORSTORE>
-
 ```

@@ -1,0 +1,36 @@
+{% include 'layout.html' %}
+<nav class="navbar navbar-dark bg-primary">
+  <div class="container-md">
+    <a class="navbar-brand" href="/">Example RAG</a>
+    <!--<a class="btn btn-light" type="button" href="/image">Image Generator</a>-->
+  </div>
+</nav>
+<div class="container mt-5">
+  <h3>
+    請描述你的問題
+  </h3>
+  <form action="/" method="POST">
+    <div>
+      <textarea class="form-control" placeholder="Add input here" name="user_input" rows="3"></textarea>
+      <button class="btn btn-primary mt-1" type="submit">submmit</button>
+    </div>
+  </form>
+
+  <div>
+    <div class="card text-left mt-3">
+      <div class="card-header">
+        結果：
+      </div>
+      <div class="card-body">
+        <div>
+          {% for response in chat_log %}
+          <md-block>
+            {{response}}
+          </md-block>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

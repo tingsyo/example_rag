@@ -1,6 +1,6 @@
 # Example Project for Retrieval Augmented Generation (RAG)
 [![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/tingsyo/example_rag/blob/main/README.md)
-[![zh-TW](https://img.shields.io/badge/lang-zh-green.svg)](https://github.com/tingsyo/example_rag/blob/main/README_zh.md)
+[![zh-TW](https://img.shields.io/badge/lang-zh-green.svg)](https://github.com/tingsyo/example_rag/blob/main/README.zh.md)
 
 This is an example application to demenstrate [Retrieval Augmented Generation (RAG)](https://en.wikipedia.org/wiki/Prompt_engineering#Retrieval-augmented_generation) in [Traditional Chinese](https://en.wikipedia.org/wiki/Traditional_Chinese_characters).
 

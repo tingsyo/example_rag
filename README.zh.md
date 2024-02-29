@@ -7,15 +7,22 @@
 為了避免版權爭議，本應用預設的文本是 [《國語和合本聖經》](https://www.translatebible.com/chinese_union_version.html)，這是 1919 出版的譯本，雖然這是百年前的翻譯，所用的詞語和語法跟現代有所不同，但它屬於公領域的文本。
 
 
-## Getting Started
+## 使用方式
 
 1. Clone this repo
-
+```
+git clone https://github.com/tingsyo/example_rag.git
+```
 
 
 2. Install dependecies
-
+```
+pip install -r requirements.txt
+```
 
 
 3. Run the app
+```
+python app.py --vectorstore_path <PATH_TO_VECTORSTORE>
 
+```

@@ -12,12 +12,19 @@ To avoid copyright issues, this demo provided RAG of the Bible. The [《國語�
 ## Getting Started
 
 1. Clone this repo
-
+```
+git clone https://github.com/tingsyo/example_rag.git
+```
 
 
 2. Install dependecies
-
+```
+pip install -r requirements.txt
+```
 
 
 3. Run the app
+```
+python app.py --vectorstore_path <PATH_TO_VECTORSTORE>
 
+```

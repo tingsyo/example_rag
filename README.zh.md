@@ -22,6 +22,7 @@ pip install -r requirements.txt
 
 
 3. 啟動 RAG app
+
 預設使用 《國語和合本聖經》 作為回答依據：
 ```
 python app.py
@@ -31,3 +32,13 @@ python app.py
 ```
 python app.py --vectorstore_path <PATH_TO_VECTORSTORE>
 ```
+
+
+## 將自有的文字內容轉換成 vectorstore
+
+我們提供了一個將多個 pdf 檔案轉換成 vectorstore 的小工具，用法：
+
+```
+python create_vectorstore_from_pdfs.py --data_path <PATH_TO_PDF_FILES> --output_path  <PATH_TO_OUTPUT_VECTORSTORE>
+```
+
